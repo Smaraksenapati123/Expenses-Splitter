@@ -1,0 +1,28 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddExpense</servlet-name>
+        <servlet-class>com.expensesplitter.AddExpenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddExpense</servlet-name>
+        <url-pattern>/addExpense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetExpenses</servlet-name>
+        <servlet-class>com.expensesplitter.GetExpensesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetExpenses</servlet-name>
+        <url-pattern>/getExpenses</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CalculateSettlement</servlet-name>
+        <servlet-class>com.expensesplitter.CalculateSettlementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalculateSettlement</servlet-name>
+        <url-pattern>/calculateSettlement</url-pattern>
+    </servlet-mapping>
+</web-app>
